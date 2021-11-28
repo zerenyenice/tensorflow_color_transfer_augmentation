@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 
-# color transfer augmentation
+# tensorflow color transfer augmentation
 def load_stats(path):
     try:
         file = np.load(os.path.join(path, 'ct.npy'))
